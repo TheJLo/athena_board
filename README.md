@@ -1,3 +1,5 @@
 The Athena Board is a 3-D printer controller board designed to interface with the Orange Pi Zero.
 
 Note pin mappings can differ based upon the definition used by the firmware developer. The pin mapping shown in the spreadsheet is based on the mighty1284p definition; Sanguinololu uses different definitions.
+
+TheJLo Fork. This fork will be making a few changes to make this board compatible with Marlin and more modular in nature.
