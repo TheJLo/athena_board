@@ -27,18 +27,7 @@ F 4 "https://www.aliexpress.com/item/50-pcs-Ultra-Small-Size-DC-DC-Step-Down-Pow
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR01
-U 1 1 5B8FF4F7
-P 3550 7800
-F 0 "#PWR01" H 3550 7650 50  0001 C CNN
-F 1 "+5V" H 3550 7940 50  0000 C CNN
-F 2 "" H 3550 7800 50  0000 C CNN
-F 3 "" H 3550 7800 50  0000 C CNN
-	1    3550 7800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR02
+L athena_board-rescue:GND-power #PWR02
 U 1 1 5B8FF511
 P 3550 7600
 F 0 "#PWR02" H 3550 7350 50  0001 C CNN
@@ -49,7 +38,7 @@ F 3 "" H 3550 7600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR03
+L athena_board-rescue:GND-power #PWR03
 U 1 1 5B8FF52B
 P 2450 7600
 F 0 "#PWR03" H 2450 7350 50  0001 C CNN
@@ -60,7 +49,7 @@ F 3 "" H 2450 7600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+24V #PWR04
+L athena_board-rescue:+24V-power #PWR04
 U 1 1 5B8FF545
 P 2450 7800
 F 0 "#PWR04" H 2450 7650 50  0001 C CNN
@@ -115,7 +104,7 @@ WSTEP
 Text Label 3400 3350 0    60   ~ 0
 WDIR
 $Comp
-L power:GND #PWR07
+L athena_board-rescue:GND-power #PWR07
 U 1 1 5B90758D
 P 2100 5250
 F 0 "#PWR07" H 2100 5000 50  0001 C CNN
@@ -126,18 +115,7 @@ F 3 "" H 2100 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR08
-U 1 1 5B907A32
-P 2100 1050
-F 0 "#PWR08" H 2100 900 50  0001 C CNN
-F 1 "+3.3V" H 2100 1190 50  0000 C CNN
-F 2 "" H 2100 1050 50  0000 C CNN
-F 3 "" H 2100 1050 50  0000 C CNN
-	1    2100 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
+L athena_board-rescue:GND-power #PWR09
 U 1 1 5B907FA1
 P 600 2500
 F 0 "#PWR09" H 600 2250 50  0001 C CNN
@@ -148,18 +126,7 @@ F 3 "" H 600 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR010
-U 1 1 5B908252
-P 1100 2650
-F 0 "#PWR010" H 1100 2500 50  0001 C CNN
-F 1 "+3.3V" H 1100 2790 50  0000 C CNN
-F 2 "" H 1100 2650 50  0000 C CNN
-F 3 "" H 1100 2650 50  0000 C CNN
-	1    1100 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x13 P2
+L athena_board-rescue:Conn_01x13-Connector_Generic P2
 U 1 1 5B904009
 P 2450 6600
 F 0 "P2" H 2450 7300 50  0000 C CNN
@@ -170,7 +137,7 @@ F 3 "" H 2450 6600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x13_Odd_Even P3
+L athena_board-rescue:Conn_02x13_Odd_Even-Connector_Generic P3
 U 1 1 5B904186
 P 1350 6600
 F 0 "P3" H 1350 7300 50  0000 C CNN
@@ -181,7 +148,7 @@ F 3 "" H 1350 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
+L athena_board-rescue:GND-power #PWR013
 U 1 1 5B907E11
 P 3250 7100
 F 0 "#PWR013" H 3250 6850 50  0001 C CNN
@@ -200,7 +167,7 @@ SDA1_ARM
 Text Label 1050 6800 2    60   ~ 0
 SCK1_ARM
 $Comp
-L power:GND #PWR014
+L athena_board-rescue:GND-power #PWR014
 U 1 1 5B908488
 P 800 6900
 F 0 "#PWR014" H 800 6650 50  0001 C CNN
@@ -211,7 +178,7 @@ F 3 "" H 800 6900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L athena_board-rescue:GND-power #PWR015
 U 1 1 5B908853
 P 1650 7200
 F 0 "#PWR015" H 1650 6950 50  0001 C CNN
@@ -243,7 +210,7 @@ NoConn ~ 1650 6300
 Text Label 850  6500 0    60   ~ 0
 RESET
 $Comp
-L Device:Crystal Y1
+L athena_board-rescue:Crystal-Device Y1
 U 1 1 5BA7AB2E
 P 1050 2050
 F 0 "Y1" H 1050 2200 50  0000 C CNN
@@ -279,18 +246,6 @@ F 4 "732-7873-1-ND" H 750 2250 50  0001 C CNN "digikey"
 	0    1    1    0   
 $EndComp
 NoConn ~ 1650 6700
-$Comp
-L athena_board-rescue:ATMEGA1284P-A-OPi_Delta4-rescue-athena_board-rescue IC1
-U 1 1 5BA8611D
-P 2200 3150
-F 0 "IC1" H 1350 5030 50  0000 L BNN
-F 1 "ATMEGA1284P-A" H 2600 1200 50  0000 L BNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2200 3150 50  0000 C CIN
-F 3 "" H 2200 3150 50  0000 C CNN
-F 4 "ATMEGA1284P-AU-ND" H 2200 3150 50  0001 C CNN "digikey"
-	1    2200 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 1450 3400 1450
 Wire Wire Line
@@ -356,8 +311,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 5150 2100 5250
 Wire Wire Line
-	2100 1150 2100 1050
-Wire Wire Line
 	1200 2650 1100 2650
 Wire Wire Line
 	3250 7100 2650 7100
@@ -382,16 +335,8 @@ Wire Wire Line
 Connection ~ 1050 2250
 Connection ~ 1050 1850
 Connection ~ 600  2250
-Wire Wire Line
-	1900 1150 2000 1150
-Connection ~ 2000 1150
 Connection ~ 2100 1150
-Wire Wire Line
-	1900 5150 2000 5150
-Connection ~ 2000 5150
 Connection ~ 2100 5150
-Wire Wire Line
-	1150 6000 1050 6000
 Wire Wire Line
 	850  6300 1150 6300
 Wire Wire Line
@@ -400,24 +345,13 @@ Wire Wire Line
 	1650 7100 1950 7100
 Wire Wire Line
 	1150 6800 1050 6800
-$Comp
-L power:+5V #PWR030
-U 1 1 5C32464D
-P 1050 6000
-F 0 "#PWR030" H 1050 5850 50  0001 C CNN
-F 1 "+5V" H 1050 6140 50  0000 C CNN
-F 2 "" H 1050 6000 50  0000 C CNN
-F 3 "" H 1050 6000 50  0000 C CNN
-	1    1050 6000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1650 6100
 NoConn ~ 1650 6200
 NoConn ~ 1150 6200
 Wire Wire Line
 	1150 6600 550  6600
 $Comp
-L power:GND #PWR031
+L athena_board-rescue:GND-power #PWR031
 U 1 1 5C3257B8
 P 550 6600
 F 0 "#PWR031" H 550 6350 50  0001 C CNN
@@ -434,12 +368,6 @@ Wire Wire Line
 	1050 1850 1200 1850
 Wire Wire Line
 	600  2250 600  2500
-Wire Wire Line
-	2000 1150 2100 1150
-Wire Wire Line
-	2100 1150 2300 1150
-Wire Wire Line
-	2000 5150 2100 5150
 Wire Wire Line
 	2100 5150 2200 5150
 $Comp
@@ -482,7 +410,7 @@ Wire Wire Line
 Text Label 5500 2600 0    60   ~ 0
 H2
 $Comp
-L power:GND #PWR028
+L athena_board-rescue:GND-power #PWR028
 U 1 1 5C83CB04
 P 6300 3000
 F 0 "#PWR028" H 6300 2750 50  0001 C CNN
@@ -519,18 +447,7 @@ $EndComp
 Wire Wire Line
 	4700 1350 4700 1300
 $Comp
-L power:+3.3V #PWR033
-U 1 1 5C86F726
-P 4700 1000
-F 0 "#PWR033" H 4700 850 50  0001 C CNN
-F 1 "+3.3V" H 4715 1173 50  0000 C CNN
-F 2 "" H 4700 1000 50  0001 C CNN
-F 3 "" H 4700 1000 50  0001 C CNN
-	1    4700 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
+L athena_board-rescue:GND-power #PWR034
 U 1 1 5C86F7AB
 P 4700 1650
 F 0 "#PWR034" H 4700 1400 50  0001 C CNN
@@ -573,9 +490,6 @@ F 4 "1276-1853-1-ND" V 2600 1150 50  0001 C CNN "digikey"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2300 1150 2450 1150
-Connection ~ 2300 1150
-Wire Wire Line
 	2450 1150 2450 900 
 Connection ~ 2450 1150
 Wire Wire Line
@@ -586,7 +500,7 @@ Connection ~ 2750 1000
 Wire Wire Line
 	2750 1000 2750 1150
 $Comp
-L power:GND #PWR017
+L athena_board-rescue:GND-power #PWR017
 U 1 1 5CADBE86
 P 2950 1000
 F 0 "#PWR017" H 2950 750 50  0001 C CNN
@@ -599,25 +513,24 @@ $EndComp
 $Comp
 L athena_board-rescue:C-athena-cache C7
 U 1 1 5CADC159
-P 1100 2800
-F 0 "C7" H 850 2800 50  0000 L CNN
-F 1 "10uF" H 850 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1138 2650 50  0001 C CNN
-F 3 "" H 1100 2800 50  0000 C CNN
-F 4 "1276-1853-1-ND" H 1100 2800 50  0001 C CNN "digikey"
-	1    1100 2800
+P 1100 2900
+F 0 "C7" H 850 2900 50  0000 L CNN
+F 1 "10uF" H 850 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1138 2750 50  0001 C CNN
+F 3 "" H 1100 2900 50  0000 C CNN
+F 4 "1276-1853-1-ND" H 1100 2900 50  0001 C CNN "digikey"
+	1    1100 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 1100 2650
 $Comp
-L power:GND #PWR016
+L athena_board-rescue:GND-power #PWR016
 U 1 1 5CADC23F
-P 1100 2950
-F 0 "#PWR016" H 1100 2700 50  0001 C CNN
-F 1 "GND" H 1105 2777 50  0000 C CNN
-F 2 "" H 1100 2950 50  0001 C CNN
-F 3 "" H 1100 2950 50  0001 C CNN
-	1    1100 2950
+P 1100 3100
+F 0 "#PWR016" H 1100 2850 50  0001 C CNN
+F 1 "GND" H 1105 2927 50  0000 C CNN
+F 2 "" H 1100 3100 50  0001 C CNN
+F 3 "" H 1100 3100 50  0001 C CNN
+	1    1100 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -639,9 +552,8 @@ Wire Wire Line
 	1900 1150 1900 950 
 Wire Wire Line
 	1900 950  1850 950 
-Connection ~ 1900 1150
 $Comp
-L power:GND #PWR018
+L athena_board-rescue:GND-power #PWR018
 U 1 1 5CB01002
 P 1550 950
 F 0 "#PWR018" H 1550 700 50  0001 C CNN
@@ -651,41 +563,6 @@ F 3 "" H 1550 950 50  0001 C CNN
 	1    1550 950 
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 5CB0332F
-P 3450 6100
-F 0 "#PWR020" H 3450 5850 50  0001 C CNN
-F 1 "GND" H 3455 5927 50  0000 C CNN
-F 2 "" H 3450 6100 50  0001 C CNN
-F 3 "" H 3450 6100 50  0001 C CNN
-	1    3450 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR021
-U 1 1 5CB03400
-P 4200 5550
-F 0 "#PWR021" H 4200 5400 50  0001 C CNN
-F 1 "+3.3V" H 4215 5723 50  0000 C CNN
-F 2 "" H 4200 5550 50  0001 C CNN
-F 3 "" H 4200 5550 50  0001 C CNN
-	1    4200 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR019
-U 1 1 5CB03583
-P 2950 5550
-F 0 "#PWR019" H 2950 5400 50  0001 C CNN
-F 1 "+5V" H 2965 5723 50  0000 C CNN
-F 2 "" H 2950 5550 50  0001 C CNN
-F 3 "" H 2950 5550 50  0001 C CNN
-	1    2950 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 5550 2950 5550
 NoConn ~ 1650 6000
 NoConn ~ 1650 6800
 NoConn ~ 2650 7000
@@ -693,7 +570,7 @@ NoConn ~ 2650 6900
 NoConn ~ 2650 6800
 NoConn ~ 2650 6700
 $Comp
-L Connector_Generic:Conn_01x04 P1
+L athena_board-rescue:Conn_01x04-Connector_Generic P1
 U 1 1 5CB2B09A
 P 4000 6850
 F 0 "P1" H 4000 7100 50  0000 C CNN
@@ -704,7 +581,7 @@ F 3 "" H 4000 6850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L athena_board-rescue:GND-power #PWR022
 U 1 1 5CB2B0A1
 P 3600 6750
 F 0 "#PWR022" H 3600 6500 50  0001 C CNN
@@ -714,25 +591,12 @@ F 3 "" H 3600 6750 50  0000 C CNN
 	1    3600 6750
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+3.3V #PWR023
-U 1 1 5CB2B0A7
-P 3600 6850
-F 0 "#PWR023" H 3600 6700 50  0001 C CNN
-F 1 "+3.3V" H 3600 6990 50  0000 C CNN
-F 2 "" H 3600 6850 50  0000 C CNN
-F 3 "" H 3600 6850 50  0000 C CNN
-	1    3600 6850
-	0    -1   -1   0   
-$EndComp
 Text Label 3600 7050 0    60   ~ 0
 SDA1_ARM
 Text Label 3600 6950 0    60   ~ 0
 SCK1_ARM
 Wire Wire Line
 	3800 6750 3600 6750
-Wire Wire Line
-	3800 6850 3600 6850
 Wire Wire Line
 	3800 6950 3600 6950
 Wire Wire Line
@@ -795,7 +659,7 @@ Wire Wire Line
 Text Label 5500 1350 0    60   ~ 0
 H1
 $Comp
-L power:GND #PWR042
+L athena_board-rescue:GND-power #PWR042
 U 1 1 5CB191B7
 P 6300 1750
 F 0 "#PWR042" H 6300 1500 50  0001 C CNN
@@ -838,18 +702,7 @@ $EndComp
 Wire Wire Line
 	4700 2600 4700 2550
 $Comp
-L power:+3.3V #PWR026
-U 1 1 5CB29510
-P 4700 2250
-F 0 "#PWR026" H 4700 2100 50  0001 C CNN
-F 1 "+3.3V" H 4715 2423 50  0000 C CNN
-F 2 "" H 4700 2250 50  0001 C CNN
-F 3 "" H 4700 2250 50  0001 C CNN
-	1    4700 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
+L athena_board-rescue:GND-power #PWR027
 U 1 1 5CB29516
 P 4700 2900
 F 0 "#PWR027" H 4700 2650 50  0001 C CNN
@@ -883,7 +736,7 @@ A2_D26
 Text Label 3400 1950 0    60   ~ 0
 A5_D29
 $Comp
-L Driver_Motor:Pololu_Breakout_A4988 A1
+L athena_board-rescue:Pololu_Breakout_A4988-Driver_Motor A1
 U 1 1 5CABFA6E
 P 4550 4150
 F 0 "A1" H 4600 5028 50  0000 C CNN
@@ -895,26 +748,7 @@ F 4 "S7006-ND two required" H 4550 4150 50  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 4450 4150 4550
-Wire Wire Line
-	4150 4550 4150 4650
-Connection ~ 4150 4550
-Wire Wire Line
-	4150 4650 4150 4750
-Connection ~ 4150 4650
-Wire Wire Line
 	4150 4750 4000 4750
-$Comp
-L power:+3.3V #PWR011
-U 1 1 5CAE5E97
-P 4000 4750
-F 0 "#PWR011" H 4000 4600 50  0001 C CNN
-F 1 "+3.3V" H 4015 4923 50  0000 C CNN
-F 2 "" H 4000 4750 50  0001 C CNN
-F 3 "" H 4000 4750 50  0001 C CNN
-	1    4000 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4150 4250 3800 4250
 Wire Wire Line
@@ -930,18 +764,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 5050 4750 4950
 $Comp
-L power:+3.3V #PWR012
-U 1 1 5CAFC271
-P 4550 3450
-F 0 "#PWR012" H 4550 3300 50  0001 C CNN
-F 1 "+3.3V" H 4565 3623 50  0000 C CNN
-F 2 "" H 4550 3450 50  0001 C CNN
-F 3 "" H 4550 3450 50  0001 C CNN
-	1    4550 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR032
+L athena_board-rescue:+24V-power #PWR032
 U 1 1 5CAFC2F0
 P 4750 3450
 F 0 "#PWR032" H 4750 3300 50  0001 C CNN
@@ -960,7 +783,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4350 5050 4350
 $Comp
-L power:GND #PWR029
+L athena_board-rescue:GND-power #PWR029
 U 1 1 5CB0F747
 P 4650 5050
 F 0 "#PWR029" H 4650 4800 50  0001 C CNN
@@ -980,7 +803,7 @@ USTEP
 Text Label 3800 4250 0    60   ~ 0
 UDIR
 $Comp
-L Driver_Motor:Pololu_Breakout_A4988 A2
+L athena_board-rescue:Pololu_Breakout_A4988-Driver_Motor A2
 U 1 1 5CB15165
 P 6250 4150
 F 0 "A2" H 6300 5028 50  0000 C CNN
@@ -992,26 +815,7 @@ F 4 "S7006-ND two required" H 6250 4150 50  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 4450 5850 4550
-Wire Wire Line
-	5850 4550 5850 4650
-Connection ~ 5850 4550
-Wire Wire Line
-	5850 4650 5850 4750
-Connection ~ 5850 4650
-Wire Wire Line
 	5850 4750 5700 4750
-$Comp
-L power:+3.3V #PWR040
-U 1 1 5CB15179
-P 5700 4750
-F 0 "#PWR040" H 5700 4600 50  0001 C CNN
-F 1 "+3.3V" H 5715 4923 50  0000 C CNN
-F 2 "" H 5700 4750 50  0001 C CNN
-F 3 "" H 5700 4750 50  0001 C CNN
-	1    5700 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 4250 5500 4250
 Wire Wire Line
@@ -1027,18 +831,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 5050 6450 4950
 $Comp
-L power:+3.3V #PWR043
-U 1 1 5CB15186
-P 6250 3450
-F 0 "#PWR043" H 6250 3300 50  0001 C CNN
-F 1 "+3.3V" H 6265 3623 50  0000 C CNN
-F 2 "" H 6250 3450 50  0001 C CNN
-F 3 "" H 6250 3450 50  0001 C CNN
-	1    6250 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR045
+L athena_board-rescue:+24V-power #PWR045
 U 1 1 5CB1518C
 P 6450 3450
 F 0 "#PWR045" H 6450 3300 50  0001 C CNN
@@ -1057,7 +850,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 4350 6750 4350
 $Comp
-L power:GND #PWR044
+L athena_board-rescue:GND-power #PWR044
 U 1 1 5CB15196
 P 6350 5050
 F 0 "#PWR044" H 6350 4800 50  0001 C CNN
@@ -1077,7 +870,7 @@ MISO_VSTEP
 Text Label 5500 4250 0    60   ~ 0
 SCK_VDIR
 $Comp
-L Driver_Motor:Pololu_Breakout_A4988 A3
+L athena_board-rescue:Pololu_Breakout_A4988-Driver_Motor A3
 U 1 1 5CB1B4D2
 P 7950 4150
 F 0 "A3" H 8000 5028 50  0000 C CNN
@@ -1098,17 +891,6 @@ Wire Wire Line
 Connection ~ 7550 4650
 Wire Wire Line
 	7550 4750 7400 4750
-$Comp
-L power:+3.3V #PWR046
-U 1 1 5CB1B4E6
-P 7400 4750
-F 0 "#PWR046" H 7400 4600 50  0001 C CNN
-F 1 "+3.3V" H 7415 4923 50  0000 C CNN
-F 2 "" H 7400 4750 50  0001 C CNN
-F 3 "" H 7400 4750 50  0001 C CNN
-	1    7400 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7550 4250 7200 4250
 Wire Wire Line
@@ -1124,18 +906,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 5050 8150 4950
 $Comp
-L power:+3.3V #PWR047
-U 1 1 5CB1B4F3
-P 7950 3450
-F 0 "#PWR047" H 7950 3300 50  0001 C CNN
-F 1 "+3.3V" H 7965 3623 50  0000 C CNN
-F 2 "" H 7950 3450 50  0001 C CNN
-F 3 "" H 7950 3450 50  0001 C CNN
-	1    7950 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR049
+L athena_board-rescue:+24V-power #PWR049
 U 1 1 5CB1B4F9
 P 8150 3450
 F 0 "#PWR049" H 8150 3300 50  0001 C CNN
@@ -1154,7 +925,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 4350 8450 4350
 $Comp
-L power:GND #PWR048
+L athena_board-rescue:GND-power #PWR048
 U 1 1 5CB1B503
 P 8050 5050
 F 0 "#PWR048" H 8050 4800 50  0001 C CNN
@@ -1174,7 +945,7 @@ WSTEP
 Text Label 7200 4250 0    60   ~ 0
 WDIR
 $Comp
-L Driver_Motor:Pololu_Breakout_A4988 A4
+L athena_board-rescue:Pololu_Breakout_A4988-Driver_Motor A4
 U 1 1 5CB22992
 P 9650 4150
 F 0 "A4" H 9700 5028 50  0000 C CNN
@@ -1195,17 +966,6 @@ Wire Wire Line
 Connection ~ 9250 4650
 Wire Wire Line
 	9250 4750 9100 4750
-$Comp
-L power:+3.3V #PWR050
-U 1 1 5CB229A6
-P 9100 4750
-F 0 "#PWR050" H 9100 4600 50  0001 C CNN
-F 1 "+3.3V" H 9115 4923 50  0000 C CNN
-F 2 "" H 9100 4750 50  0001 C CNN
-F 3 "" H 9100 4750 50  0001 C CNN
-	1    9100 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9250 4250 8900 4250
 Wire Wire Line
@@ -1221,18 +981,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 5050 9850 4950
 $Comp
-L power:+3.3V #PWR051
-U 1 1 5CB229B3
-P 9650 3450
-F 0 "#PWR051" H 9650 3300 50  0001 C CNN
-F 1 "+3.3V" H 9665 3623 50  0000 C CNN
-F 2 "" H 9650 3450 50  0001 C CNN
-F 3 "" H 9650 3450 50  0001 C CNN
-	1    9650 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR054
+L athena_board-rescue:+24V-power #PWR054
 U 1 1 5CB229B9
 P 9850 3450
 F 0 "#PWR054" H 9850 3300 50  0001 C CNN
@@ -1251,7 +1000,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 4350 10150 4350
 $Comp
-L power:GND #PWR053
+L athena_board-rescue:GND-power #PWR053
 U 1 1 5CB229C3
 P 9750 5050
 F 0 "#PWR053" H 9750 4800 50  0001 C CNN
@@ -1271,7 +1020,7 @@ ESTEP
 Text Label 8900 4250 0    60   ~ 0
 EDIR
 $Comp
-L Connector_Generic:Conn_02x09_Counter_Clockwise J3
+L athena_board-rescue:Conn_02x09_Counter_Clockwise-Connector_Generic J3
 U 1 1 5CB2BFEA
 P 5450 6050
 F 0 "J3" H 5500 6667 50  0000 C CNN
@@ -1291,21 +1040,8 @@ Wire Wire Line
 	5250 6250 4950 6250
 Wire Wire Line
 	5250 6350 4950 6350
-Wire Wire Line
-	5750 6050 5950 6050
 $Comp
-L power:+5V #PWR038
-U 1 1 5CBA4EA2
-P 5750 5950
-F 0 "#PWR038" H 5750 5800 50  0001 C CNN
-F 1 "+5V" H 5765 6123 50  0000 C CNN
-F 2 "" H 5750 5950 50  0001 C CNN
-F 3 "" H 5750 5950 50  0001 C CNN
-	1    5750 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR035
+L athena_board-rescue:+24V-power #PWR035
 U 1 1 5CBA4F3D
 P 6300 6150
 F 0 "#PWR035" H 6300 6000 50  0001 C CNN
@@ -1331,25 +1067,12 @@ Text Label 4950 6150 0    60   ~ 0
 A7_D31
 Text Label 4950 6350 0    60   ~ 0
 D21
-Wire Wire Line
-	5750 5650 5950 5650
 Text Label 4950 6450 0    60   ~ 0
 D20
 Text Label 4950 6050 0    60   ~ 0
 A6_D30
 $Comp
-L power:GND #PWR055
-U 1 1 5CC08310
-P 6150 5750
-F 0 "#PWR055" H 6150 5500 50  0001 C CNN
-F 1 "GND" H 6155 5577 50  0000 C CNN
-F 2 "" H 6150 5750 50  0001 C CNN
-F 3 "" H 6150 5750 50  0001 C CNN
-	1    6150 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J8
+L athena_board-rescue:Screw_Terminal_01x02-Connector J8
 U 1 1 5CC08983
 P 8400 1400
 F 0 "J8" H 8320 1075 50  0000 C CNN
@@ -1361,7 +1084,7 @@ F 4 "277-1721-ND" H 8400 1400 50  0001 C CNN "digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 J10
+L athena_board-rescue:Screw_Terminal_01x04-Connector J10
 U 1 1 5CC08A69
 P 9150 1400
 F 0 "J10" H 9150 1100 50  0000 C CNN
@@ -1380,7 +1103,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 1500 9450 1500
 $Comp
-L power:+24V #PWR059
+L athena_board-rescue:+24V-power #PWR059
 U 1 1 5CC4F2E1
 P 9900 1200
 F 0 "#PWR059" H 9900 1050 50  0001 C CNN
@@ -1391,7 +1114,7 @@ F 3 "" H 9900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR057
+L athena_board-rescue:GND-power #PWR057
 U 1 1 5CC4F344
 P 8700 1400
 F 0 "#PWR057" H 8700 1150 50  0001 C CNN
@@ -1408,7 +1131,7 @@ HEATER1
 Text Label 9450 1500 0    60   ~ 0
 FAN1
 $Comp
-L Connector:Screw_Terminal_01x02 J9
+L athena_board-rescue:Screw_Terminal_01x02-Connector J9
 U 1 1 5CC676ED
 P 8400 2700
 F 0 "J9" H 8320 2375 50  0000 C CNN
@@ -1420,7 +1143,7 @@ F 4 "277-1721-ND" H 8400 2700 50  0001 C CNN "digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 J12
+L athena_board-rescue:Screw_Terminal_01x04-Connector J12
 U 1 1 5CC676F4
 P 9150 2700
 F 0 "J12" H 9150 2400 50  0000 C CNN
@@ -1439,7 +1162,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 2800 9450 2800
 $Comp
-L power:+24V #PWR060
+L athena_board-rescue:+24V-power #PWR060
 U 1 1 5CC6770E
 P 10050 2500
 F 0 "#PWR060" H 10050 2350 50  0001 C CNN
@@ -1450,7 +1173,7 @@ F 3 "" H 10050 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR058
+L athena_board-rescue:GND-power #PWR058
 U 1 1 5CC67714
 P 8700 2700
 F 0 "#PWR058" H 8700 2450 50  0001 C CNN
@@ -1466,29 +1189,6 @@ Text Label 9450 2600 0    60   ~ 0
 HEATER2
 Text Label 9450 2800 0    60   ~ 0
 FAN2
-Wire Wire Line
-	5750 5850 5950 5850
-Wire Wire Line
-	5950 5650 6150 5650
-Wire Wire Line
-	6150 5650 6150 5750
-Connection ~ 5950 5650
-Wire Wire Line
-	5950 5650 5950 5850
-Wire Wire Line
-	5950 6050 5950 5850
-Connection ~ 5950 5850
-$Comp
-L power:+3.3V #PWR039
-U 1 1 5CBA4E07
-P 5750 5750
-F 0 "#PWR039" H 5750 5600 50  0001 C CNN
-F 1 "+3.3V" H 5765 5923 50  0000 C CNN
-F 2 "" H 5750 5750 50  0001 C CNN
-F 3 "" H 5750 5750 50  0001 C CNN
-	1    5750 5750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5250 6050 4950 6050
 Wire Wire Line
@@ -1553,7 +1253,7 @@ Wire Wire Line
 Text Label 6900 2600 0    60   ~ 0
 F2
 $Comp
-L power:GND #PWR041
+L athena_board-rescue:GND-power #PWR041
 U 1 1 5CC315F8
 P 7700 3000
 F 0 "#PWR041" H 7700 2750 50  0001 C CNN
@@ -1609,7 +1309,7 @@ Wire Wire Line
 Text Label 6900 1350 0    60   ~ 0
 F1
 $Comp
-L power:GND #PWR037
+L athena_board-rescue:GND-power #PWR037
 U 1 1 5CC3161F
 P 7700 1750
 F 0 "#PWR037" H 7700 1500 50  0001 C CNN
@@ -1626,7 +1326,7 @@ Wire Wire Line
 Text Label 7900 950  0    60   ~ 0
 FAN1
 $Comp
-L power:GND #PWR06
+L athena_board-rescue:GND-power #PWR06
 U 1 1 5B8FF876
 P 1800 7750
 F 0 "#PWR06" H 1800 7500 50  0001 C CNN
@@ -1637,7 +1337,7 @@ F 3 "" H 1800 7750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR05
+L athena_board-rescue:+24V-power #PWR05
 U 1 1 5B8FF856
 P 1800 7550
 F 0 "#PWR05" H 1800 7400 50  0001 C CNN
@@ -1648,7 +1348,7 @@ F 3 "" H 1800 7550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Barrel_Jack_MountingPin J7
+L athena_board-rescue:Barrel_Jack_MountingPin-Connector J7
 U 1 1 5CC65D96
 P 1500 7650
 F 0 "J7" H 1200 7650 50  0000 C CNN
@@ -1659,7 +1359,7 @@ F 3 "~" H 1550 7610 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J11
+L athena_board-rescue:Screw_Terminal_01x02-Connector J11
 U 1 1 5CC7DCC4
 P 7350 6150
 F 0 "J11" V 7223 6230 50  0000 L CNN
@@ -1671,7 +1371,7 @@ F 4 "277-1721-ND" V 7350 6150 50  0001 C CNN "digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR036
+L athena_board-rescue:GND-power #PWR036
 U 1 1 5CC7DF21
 P 7050 5950
 F 0 "#PWR036" H 7050 5700 50  0001 C CNN
@@ -1690,7 +1390,7 @@ Wire Wire Line
 Text Label 7050 5850 0    60   ~ 0
 ULIMIT
 $Comp
-L Connector:Screw_Terminal_01x02 J15
+L athena_board-rescue:Screw_Terminal_01x02-Connector J15
 U 1 1 5CC9623E
 P 8100 6150
 F 0 "J15" V 7973 6230 50  0000 L CNN
@@ -1702,7 +1402,7 @@ F 4 "277-1721-ND" V 8100 6150 50  0001 C CNN "digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR052
+L athena_board-rescue:GND-power #PWR052
 U 1 1 5CC96245
 P 7800 5950
 F 0 "#PWR052" H 7800 5700 50  0001 C CNN
@@ -1721,7 +1421,7 @@ Wire Wire Line
 Text Label 7800 5850 0    60   ~ 0
 VLIMIT
 $Comp
-L Connector:Screw_Terminal_01x02 J16
+L athena_board-rescue:Screw_Terminal_01x02-Connector J16
 U 1 1 5CCA2A29
 P 8850 6150
 F 0 "J16" V 8723 6230 50  0000 L CNN
@@ -1733,7 +1433,7 @@ F 4 "277-1721-ND" V 8850 6150 50  0001 C CNN "digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR056
+L athena_board-rescue:GND-power #PWR056
 U 1 1 5CCA2A30
 P 8550 5950
 F 0 "#PWR056" H 8550 5700 50  0001 C CNN
@@ -1751,18 +1451,6 @@ Wire Wire Line
 	8850 5850 8550 5850
 Text Label 8550 5850 0    60   ~ 0
 WLIMIT
-$Comp
-L Regulator_Linear:MCP1826S U1
-U 1 1 5CCB068E
-P 3450 5550
-F 0 "U1" H 3450 5792 50  0000 C CNN
-F 1 "AZ2940T-3.3E1" H 3450 5701 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3350 5700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf" H 3450 5800 50  0001 C CNN
-F 4 "AZ2940T-3.3E1DI-ND" H 3450 5550 50  0001 C CNN "digikey"
-	1    3450 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 2600 6000 2600
 Connection ~ 5700 2600
@@ -1776,7 +1464,7 @@ Wire Wire Line
 	7100 2600 7400 2600
 Connection ~ 7100 2600
 $Comp
-L Connector:Screw_Terminal_01x04 J1
+L athena_board-rescue:Screw_Terminal_01x04-Connector J1
 U 1 1 5CC5A077
 P 5350 4150
 F 0 "J1" H 5300 4350 50  0000 L CNN
@@ -1787,50 +1475,6 @@ F 4 "277-1860-ND" H 5350 4150 50  0001 C CNN "digikey"
 	1    5350 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 5550 3800 5550
-Wire Wire Line
-	3800 5550 3800 5800
-Connection ~ 3800 5550
-Wire Wire Line
-	3800 5550 4100 5550
-Wire Wire Line
-	4100 5550 4100 5800
-Connection ~ 4100 5550
-Wire Wire Line
-	4100 5550 4200 5550
-$Comp
-L athena_board-rescue:CP-athena-cache C3
-U 1 1 5CF47E78
-P 3800 5950
-F 0 "C3" H 3918 5996 50  0000 L CNN
-F 1 "100uF" V 3650 5850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3838 5800 50  0001 C CNN
-F 3 "" H 3800 5550 50  0000 C CNN
-F 4 "478-12404-1-ND" H 3800 5950 50  0001 C CNN "digikey"
-	1    3800 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L athena_board-rescue:C-athena-cache C4
-U 1 1 5CF47F46
-P 4100 5950
-F 0 "C4" H 4215 5996 50  0000 L CNN
-F 1 "10uF" H 4215 5905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4138 5800 50  0001 C CNN
-F 3 "" H 4100 5950 50  0000 C CNN
-F 4 "1276-1853-1-ND" H 4100 5950 50  0001 C CNN "digikey"
-	1    4100 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 6100 3800 6100
-Connection ~ 3800 6100
-Wire Wire Line
-	3800 6100 3450 6100
-Wire Wire Line
-	3450 5850 3450 6100
-Connection ~ 3450 6100
 Wire Wire Line
 	9350 2500 10050 2500
 Wire Wire Line
@@ -1846,7 +1490,7 @@ Wire Wire Line
 	9350 1400 9900 1400
 Connection ~ 9900 1200
 $Comp
-L Connector:Screw_Terminal_01x04 J2
+L athena_board-rescue:Screw_Terminal_01x04-Connector J2
 U 1 1 5CF9A20E
 P 7050 4150
 F 0 "J2" H 7000 4350 50  0000 L CNN
@@ -1858,7 +1502,7 @@ F 4 "277-1860-ND" H 7050 4150 50  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 J4
+L athena_board-rescue:Screw_Terminal_01x04-Connector J4
 U 1 1 5CF9A2B4
 P 8750 4150
 F 0 "J4" H 8700 4350 50  0000 L CNN
@@ -1870,7 +1514,7 @@ F 4 "277-1860-ND" H 8750 4150 50  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 J5
+L athena_board-rescue:Screw_Terminal_01x04-Connector J5
 U 1 1 5CF9A380
 P 10450 4150
 F 0 "J5" H 10400 4350 50  0000 L CNN
@@ -1881,4 +1525,277 @@ F 4 "277-1860-ND" H 10450 4150 50  0001 C CNN "digikey"
 	1    10450 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DDD5676
+P 1100 2550
+F 0 "#PWR?" H 1100 2400 50  0001 C CNN
+F 1 "+5V-power" H 1115 2723 50  0000 C CNN
+F 2 "" H 1100 2550 50  0001 C CNN
+F 3 "" H 1100 2550 50  0001 C CNN
+	1    1100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DDD59CC
+P 2200 900
+F 0 "#PWR?" H 2200 750 50  0001 C CNN
+F 1 "+5V-power" H 2215 1073 50  0000 C CNN
+F 2 "" H 2200 900 50  0001 C CNN
+F 3 "" H 2200 900 50  0001 C CNN
+	1    2200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DDD5C11
+P 5650 3450
+F 0 "#PWR?" H 5650 3300 50  0001 C CNN
+F 1 "+5V-power" H 5665 3623 50  0000 C CNN
+F 2 "" H 5650 3450 50  0001 C CNN
+F 3 "" H 5650 3450 50  0001 C CNN
+	1    5650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DDF0AAA
+P 4000 3450
+F 0 "#PWR?" H 4000 3300 50  0001 C CNN
+F 1 "+5V-power" H 4015 3623 50  0000 C CNN
+F 2 "" H 4000 3450 50  0001 C CNN
+F 3 "" H 4000 3450 50  0001 C CNN
+	1    4000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DDFDEC7
+P 4000 4500
+F 0 "#PWR?" H 4000 4350 50  0001 C CNN
+F 1 "+5V-power" H 4015 4673 50  0000 C CNN
+F 2 "" H 4000 4500 50  0001 C CNN
+F 3 "" H 4000 4500 50  0001 C CNN
+	1    4000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE0B2E4
+P 5700 4500
+F 0 "#PWR?" H 5700 4350 50  0001 C CNN
+F 1 "+5V-power" H 5715 4673 50  0000 C CNN
+F 2 "" H 5700 4500 50  0001 C CNN
+F 3 "" H 5700 4500 50  0001 C CNN
+	1    5700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE18849
+P 7400 4500
+F 0 "#PWR?" H 7400 4350 50  0001 C CNN
+F 1 "+5V-power" H 7415 4673 50  0000 C CNN
+F 2 "" H 7400 4500 50  0001 C CNN
+F 3 "" H 7400 4500 50  0001 C CNN
+	1    7400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE25C66
+P 7350 3450
+F 0 "#PWR?" H 7350 3300 50  0001 C CNN
+F 1 "+5V-power" H 7365 3623 50  0000 C CNN
+F 2 "" H 7350 3450 50  0001 C CNN
+F 3 "" H 7350 3450 50  0001 C CNN
+	1    7350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE331CB
+P 9050 3450
+F 0 "#PWR?" H 9050 3300 50  0001 C CNN
+F 1 "+5V-power" H 9065 3623 50  0000 C CNN
+F 2 "" H 9050 3450 50  0001 C CNN
+F 3 "" H 9050 3450 50  0001 C CNN
+	1    9050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE405E8
+P 9100 4500
+F 0 "#PWR?" H 9100 4350 50  0001 C CNN
+F 1 "+5V-power" H 9115 4673 50  0000 C CNN
+F 2 "" H 9100 4500 50  0001 C CNN
+F 3 "" H 9100 4500 50  0001 C CNN
+	1    9100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE4DEAA
+P 6200 5550
+F 0 "#PWR?" H 6200 5400 50  0001 C CNN
+F 1 "+5V-power" H 6215 5723 50  0000 C CNN
+F 2 "" H 6200 5550 50  0001 C CNN
+F 3 "" H 6200 5550 50  0001 C CNN
+	1    6200 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 1150
+Wire Wire Line
+	2000 5150 2100 5150
+Wire Wire Line
+	1900 5150 2000 5150
+Connection ~ 2000 5150
+Wire Wire Line
+	2300 1150 2450 1150
+Connection ~ 2300 1150
+Wire Wire Line
+	2000 1150 2100 1150
+Wire Wire Line
+	1900 1150 2000 1150
+Connection ~ 2000 1150
+$Comp
+L athena_board-rescue:ATMEGA1284P-A-OPi_Delta4-rescue-athena_board-rescue IC1
+U 1 1 5BA8611D
+P 2200 3150
+F 0 "IC1" H 1350 5030 50  0000 L BNN
+F 1 "ATMEGA1284P-A" H 2600 1200 50  0000 L BNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2200 3150 50  0000 C CIN
+F 3 "" H 2200 3150 50  0000 C CNN
+F 4 "ATMEGA1284P-AU-ND" H 2200 3150 50  0001 C CNN "digikey"
+	1    2200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE6A5FE
+P 4700 1000
+F 0 "#PWR?" H 4700 850 50  0001 C CNN
+F 1 "+5V-power" H 4715 1173 50  0000 C CNN
+F 2 "" H 4700 1000 50  0001 C CNN
+F 3 "" H 4700 1000 50  0001 C CNN
+	1    4700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE7814A
+P 4700 2250
+F 0 "#PWR?" H 4700 2100 50  0001 C CNN
+F 1 "+5V-power" H 4715 2423 50  0000 C CNN
+F 2 "" H 4700 2250 50  0001 C CNN
+F 3 "" H 4700 2250 50  0001 C CNN
+	1    4700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE8613B
+P 1000 5950
+F 0 "#PWR?" H 1000 5800 50  0001 C CNN
+F 1 "+5V-power" H 1015 6123 50  0000 C CNN
+F 2 "" H 1000 5950 50  0001 C CNN
+F 3 "" H 1000 5950 50  0001 C CNN
+	1    1000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DE94341
+P 4100 7550
+F 0 "#PWR?" H 4100 7400 50  0001 C CNN
+F 1 "+5V-power" H 4115 7723 50  0000 C CNN
+F 2 "" H 4100 7550 50  0001 C CNN
+F 3 "" H 4100 7550 50  0001 C CNN
+	1    4100 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L athena_board-rescue:+5V-power #PWR?
+U 1 1 5DEA2BAF
+P 3250 6750
+F 0 "#PWR?" H 3250 6600 50  0001 C CNN
+F 1 "+5V-power" H 3265 6923 50  0000 C CNN
+F 2 "" H 3250 6750 50  0001 C CNN
+F 3 "" H 3250 6750 50  0001 C CNN
+	1    3250 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5950 1000 6000
+Wire Wire Line
+	1000 6000 1150 6000
+Wire Wire Line
+	1100 2650 1100 2550
+Wire Wire Line
+	1100 2750 1100 2650
+Connection ~ 1100 2650
+Wire Wire Line
+	1100 3050 1100 3100
+Wire Wire Line
+	2100 1150 2200 1150
+Wire Wire Line
+	2200 900  2200 1150
+Connection ~ 2200 1150
+Wire Wire Line
+	2200 1150 2300 1150
+Wire Wire Line
+	4150 4450 4150 4550
+Connection ~ 4150 4550
+Wire Wire Line
+	4150 4550 4150 4650
+Wire Wire Line
+	4150 4650 4150 4750
+Connection ~ 4150 4650
+Connection ~ 5850 4650
+Wire Wire Line
+	5850 4650 5850 4750
+Connection ~ 5850 4550
+Wire Wire Line
+	5850 4550 5850 4650
+Wire Wire Line
+	5850 4450 5850 4550
+Wire Wire Line
+	9100 4750 9100 4500
+Wire Wire Line
+	7400 4750 7400 4500
+Wire Wire Line
+	5700 4750 5700 4500
+Wire Wire Line
+	4000 4750 4000 4500
+Wire Wire Line
+	3250 6850 3800 6850
+Wire Wire Line
+	3250 6750 3250 6850
+Wire Wire Line
+	3550 7800 4100 7800
+Wire Wire Line
+	4100 7800 4100 7550
+Wire Wire Line
+	5650 3450 6250 3450
+Wire Wire Line
+	4000 3450 4550 3450
+Wire Wire Line
+	7350 3450 7950 3450
+Wire Wire Line
+	9050 3450 9650 3450
+$Comp
+L athena_board-rescue:CP-athena-cache C?
+U 1 1 5E15AE39
+P 7350 3650
+F 0 "C?" H 7468 3696 50  0000 L CNN
+F 1 "22uF @ 50V" H 7468 3605 50  0000 L CNN
+F 2 "" H 7388 3500 50  0000 C CNN
+F 3 "" H 7350 3650 50  0000 C CNN
+	1    7350 3650
+	1    0    0    -1  
+$EndComp
+Text Notes 6750 3250 0    50   ~ 0
+Need to use Stagard THT footprint to fit boards.
 $EndSCHEMATC

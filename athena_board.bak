@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L delta4_aux4-cache:DC-DC_Buck-RESCUE-delta4_aux4 PSU1
+L athena_board-rescue:DC-DC_Buck-RESCUE-delta4_aux4-delta4_aux4-cache PSU1
 U 1 1 5B8FF2E5
 P 3000 7700
 F 0 "PSU1" H 3000 7950 60  0000 C CNN
@@ -255,7 +255,7 @@ F 4 "535-9067-1-ND" H 1050 2050 50  0001 C CNN "digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L athena-cache:C C5
+L athena_board-rescue:C-athena-cache C5
 U 1 1 5BA7AF04
 P 750 1850
 F 0 "C5" H 775 1950 50  0000 L CNN
@@ -267,7 +267,7 @@ F 4 "732-7873-1-ND" H 750 1850 50  0001 C CNN "digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L athena-cache:C C6
+L athena_board-rescue:C-athena-cache C6
 U 1 1 5BA7AF93
 P 750 2250
 F 0 "C6" H 775 2350 50  0000 L CNN
@@ -280,7 +280,7 @@ F 4 "732-7873-1-ND" H 750 2250 50  0001 C CNN "digikey"
 $EndComp
 NoConn ~ 1650 6700
 $Comp
-L athena_board-rescue:ATMEGA1284P-A-OPi_Delta4-rescue IC1
+L athena_board-rescue:ATMEGA1284P-A-OPi_Delta4-rescue-athena_board-rescue IC1
 U 1 1 5BA8611D
 P 2200 3150
 F 0 "IC1" H 1350 5030 50  0000 L BNN
@@ -443,7 +443,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 5150 2200 5150
 $Comp
-L athena-cache:Q_NMOS_GDS Q1
+L athena_board-rescue:Q_NMOS_GDS-athena-cache Q1
 U 1 1 5C824270
 P 6200 2600
 F 0 "Q1" H 6405 2646 50  0000 L CNN
@@ -462,7 +462,7 @@ Connection ~ 6300 2900
 Wire Wire Line
 	6300 2900 6300 3000
 $Comp
-L athena-cache:R R3
+L athena_board-rescue:R-athena-cache R3
 U 1 1 5C8302C6
 P 6000 2900
 F 0 "R3" V 5793 2900 50  0000 C CNN
@@ -493,7 +493,7 @@ F 3 "" H 6300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L athena-cache:R R5
+L athena_board-rescue:R-athena-cache R5
 U 1 1 5C86279E
 P 4700 1150
 F 0 "R5" H 4770 1196 50  0000 L CNN
@@ -505,7 +505,7 @@ F 4 "A130181CT-ND" H 4700 1150 50  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L athena-cache:C C1
+L athena_board-rescue:C-athena-cache C1
 U 1 1 5C862851
 P 4700 1500
 F 0 "C1" H 4815 1546 50  0000 L CNN
@@ -550,7 +550,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 2750 3400 2750
 $Comp
-L athena-cache:C C8
+L athena_board-rescue:C-athena-cache C8
 U 1 1 5CA9959E
 P 2600 900
 F 0 "C8" V 2348 900 50  0000 C CNN
@@ -561,7 +561,7 @@ F 3 "" H 2600 900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L athena-cache:C C9
+L athena_board-rescue:C-athena-cache C9
 U 1 1 5CA9966D
 P 2600 1150
 F 0 "C9" V 2650 1050 50  0000 C CNN
@@ -597,7 +597,7 @@ F 3 "" H 2950 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L athena-cache:C C7
+L athena_board-rescue:C-athena-cache C7
 U 1 1 5CADC159
 P 1100 2800
 F 0 "C7" H 850 2800 50  0000 L CNN
@@ -624,7 +624,7 @@ Wire Wire Line
 	1150 6100 1150 6000
 Connection ~ 1150 6000
 $Comp
-L athena-cache:C C10
+L athena_board-rescue:C-athena-cache C10
 U 1 1 5CAEF72B
 P 1700 950
 F 0 "C10" V 1952 950 50  0000 C CNN
@@ -756,7 +756,7 @@ Wire Wire Line
 Text Label 6500 2200 0    60   ~ 0
 HEATER2
 $Comp
-L athena-cache:Q_NMOS_GDS Q2
+L athena_board-rescue:Q_NMOS_GDS-athena-cache Q2
 U 1 1 5CB19199
 P 6200 1350
 F 0 "Q2" H 6405 1396 50  0000 L CNN
@@ -775,7 +775,7 @@ Connection ~ 6300 1650
 Wire Wire Line
 	6300 1650 6300 1750
 $Comp
-L athena-cache:R R6
+L athena_board-rescue:R-athena-cache R6
 U 1 1 5CB191AB
 P 6000 1650
 F 0 "R6" V 5793 1650 50  0000 C CNN
@@ -812,7 +812,7 @@ Wire Wire Line
 Text Label 6500 950  0    60   ~ 0
 HEATER1
 $Comp
-L athena-cache:R R2
+L athena_board-rescue:R-athena-cache R2
 U 1 1 5CB29501
 P 4700 2400
 F 0 "R2" H 4770 2446 50  0000 L CNN
@@ -824,7 +824,7 @@ F 4 "A130181CT-ND" H 4700 2400 50  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L athena-cache:C C2
+L athena_board-rescue:C-athena-cache C2
 U 1 1 5CB29508
 P 4700 2750
 F 0 "C2" H 4815 2796 50  0000 L CNN
@@ -1514,7 +1514,7 @@ Wire Wire Line
 	5750 6350 6300 6350
 Connection ~ 6300 6150
 $Comp
-L athena-cache:Q_NMOS_GDS Q4
+L athena_board-rescue:Q_NMOS_GDS-athena-cache Q4
 U 1 1 5CC315DA
 P 7600 2600
 F 0 "Q4" H 7805 2646 50  0000 L CNN
@@ -1533,7 +1533,7 @@ Connection ~ 7700 2900
 Wire Wire Line
 	7700 2900 7700 3000
 $Comp
-L athena-cache:R R10
+L athena_board-rescue:R-athena-cache R10
 U 1 1 5CC315EC
 P 7400 2900
 F 0 "R10" V 7193 2900 50  0000 C CNN
@@ -1570,7 +1570,7 @@ Wire Wire Line
 Text Label 7900 2200 0    60   ~ 0
 FAN2
 $Comp
-L athena-cache:Q_NMOS_GDS Q3
+L athena_board-rescue:Q_NMOS_GDS-athena-cache Q3
 U 1 1 5CC31601
 P 7600 1350
 F 0 "Q3" H 7805 1396 50  0000 L CNN
@@ -1589,7 +1589,7 @@ Connection ~ 7700 1650
 Wire Wire Line
 	7700 1650 7700 1750
 $Comp
-L athena-cache:R R9
+L athena_board-rescue:R-athena-cache R9
 U 1 1 5CC31613
 P 7400 1650
 F 0 "R9" V 7193 1650 50  0000 C CNN
@@ -1800,7 +1800,7 @@ Connection ~ 4100 5550
 Wire Wire Line
 	4100 5550 4200 5550
 $Comp
-L athena-cache:CP C3
+L athena_board-rescue:CP-athena-cache C3
 U 1 1 5CF47E78
 P 3800 5950
 F 0 "C3" H 3918 5996 50  0000 L CNN
@@ -1812,7 +1812,7 @@ F 4 "478-12404-1-ND" H 3800 5950 50  0001 C CNN "digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L athena-cache:C C4
+L athena_board-rescue:C-athena-cache C4
 U 1 1 5CF47F46
 P 4100 5950
 F 0 "C4" H 4215 5996 50  0000 L CNN
